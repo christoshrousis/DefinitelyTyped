@@ -1004,7 +1004,7 @@ declare namespace sharp {
     type TileLayout = 'dz' | 'iiif' | 'zoomify' | 'google';
 
     type Blend = 'clear' | 'source' | 'over' | 'in' | 'out' | 'atop' | 'dest' | 'dest-over' | 'dest-in' | 'dest-out' | 'dest-atop'  | 'xor' | 'add' | 'saturate' | 'multiply' | 'screen' | 'overlay'
-                 | 'darken' | 'lighten' | 'colour-dodge' | 'colour-dodge' | 'colour-burn' | 'colour-burn' | 'hard-light' | 'soft-light' | 'difference' | 'exclusion';
+                 | 'darken' | 'lighten' | 'colour-dodge' | 'color-dodge' | 'colour-burn' | 'color-burn' | 'hard-light' | 'soft-light' | 'difference' | 'exclusion';
 
     type Gravity = number | string;
 
